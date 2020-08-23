@@ -1,6 +1,6 @@
 console.log("Welcome to the main module")
 
-import { CreatePlan } from './scripts/plan.js';
+import { createPlan } from './plan.js';
 
-const yearlyPlan = CreatePlan();
+const yearlyPlan = createPlan();
 console.log(yearlyPlan);
