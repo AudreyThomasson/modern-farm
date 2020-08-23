@@ -32,5 +32,9 @@ console.log(sunflowerSeed);
 const wheatSeed = createWheat();
 console.log(wheatSeed);
 
-addPlant(seedObj);
-usePlants();
+
+addPlant(wheatSeed);
+console.log(addPlant(wheatSeed));
+
+const field = usePlants();
+console.log(field);
